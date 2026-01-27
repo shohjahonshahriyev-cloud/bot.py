@@ -6,7 +6,7 @@ Bu bot Excel fayllaridan 6 xonali ID orqali ma'lumotlarni qidirish uchun yaratil
 ## 🏗️ Loyiha tuzilmasi
 ```
 telegram/
-├── bot_new.py          # Asosiy bot fayli
+├── bot_complete.py          # Asosiy bot fayli
 ├── config.py           # Konfiguratsiya
 ├── excel_handler.py    # Excel fayllar bilan ishlash
 ├── database.py         # Ma'lumotlar bazasi
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### 3. Botni ishga tushurish
 ```bash
-python bot_new.py
+python bot_complete.py
 ```
 
 ## 📋 Bot imkoniyatlari
