@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./admin_files:/app/admin_files
+      - ./user_files:/app/user_files
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge

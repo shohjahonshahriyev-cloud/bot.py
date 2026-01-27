@@ -1,0 +1,23 @@
+# Fayllar va papkalar serverga yuklanmasligi kerak
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+logs/*.log
+.env
+.DS_Store
+.vscode/
+.idea/
+*.rar
+*.zip
+.git/
+.gitignore
+README.md
+DEPLOYMENT.md
